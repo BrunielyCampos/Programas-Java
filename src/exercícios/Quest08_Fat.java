@@ -6,7 +6,6 @@ public class Quest08_Fat {
     public static void main(String[] args) {
         
         double num;
-        int cont = 0;
         double mult = 1;
         Scanner scan = new Scanner(System.in);
 
@@ -14,7 +13,6 @@ public class Quest08_Fat {
         num = scan.nextInt();
 
         while(num >= 1){
-            cont++;
             mult = mult * num;
             num--;  
         }
